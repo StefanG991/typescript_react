@@ -1,0 +1,25 @@
+.message {
+  text-align: left;
+  position: relative;
+  margin: 5px;
+  padding: 5px;
+  padding-top: 10px;
+  max-width: 90%;
+  min-width: 50px;
+  border-radius: 10px 3px 10px 10px;
+  overflow-wrap: break-word;
+  /* margin-left: auto; */
+  background-color: white;
+}
+
+.delete_span {
+  cursor: pointer;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  font-size: 0.6em;
+  color: red;
+}
+a {
+  text-decoration: none;
+}
