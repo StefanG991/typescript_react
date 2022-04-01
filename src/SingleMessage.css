@@ -11,8 +11,11 @@
   /* margin-left: auto; */
   background-color: white;
 }
-
+.message:hover .delete_span {
+  opacity: 1;
+}
 .delete_span {
+  opacity: 0;
   cursor: pointer;
   position: absolute;
   right: 2px;
